@@ -44,6 +44,9 @@ project "profile"
 project "client"
     files { "client.c", "netcode.c" }
 
+project "client_token"
+    files { "client_token.c", "netcode.c", "b64/decode.c", "b64/encode.c" }
+
 project "server"
     files { "server.c", "netcode.c" }
 
